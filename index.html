@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>JS Input Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <h1>JS Input Validation</h1>
+        <p>On blur, show/hide a validation message/styling for the described input.</p>
+        <p>The form should only be allowed to submit if all the inputs are valid.</p>
+        <p>You may change the HTML, CSS, and JS for this assignment.</p>
+    </header>
+    <main>
+        <form name="odd-number-form">
+            <label for="odd-number">Odd number:</label>
+            <input type="number" name="odd-number">
+            <button type="submit">Submit</button>
+        </form>
+        <form name="even-number-form">
+            <label for="even-number">Even number:</label>
+            <input type="number" name="even-number">
+            <button type="submit">Submit</button>
+        </form>
+        <form name="signup-form">
+            <p>
+                <label for="username">Username:</label>
+                <input type="text" name="username">
+                <p><small>Usernames should be 4-16 characters and only contain letters.</small></p>
+            </p>
+            <p>
+                <label for="password">Password:</label>
+                <input type="password" name="password">
+                <p><small>Password should be 6-16 characters and contain letters, numbers, and punctiation.</small></p>
+            </p>
+            <p> <label for="passwordRepeat">Password Repeat:</label>
+                <input type="password" name="passwordRepeat">
+            </p>
+            <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>
